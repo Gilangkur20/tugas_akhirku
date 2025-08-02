@@ -53,7 +53,7 @@ class _PembelianPageState extends State<PembelianPage> {
     final String harga = penjual['harga_produk']?.toString() ?? '0';
     final String namaPenjual = penjual['nama'] ?? 'Tanpa nama';
     final String foto = penjual['foto_produk'] ?? '';
-    final String imageUrl = 'http://10.0.167.192:8000/storage/$foto';
+    final String imageUrl = 'http://192.168.1.5:8000/storage/$foto';
 
     final String pembeliNama = penjual['name'] ?? 'Gilang kur';
     final String pembeliAlamat = penjual['alamat'] ?? 'Jalan Sidomulya, No 18, RT 3 RW 7';

@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:tugas_akhir/screens/pembelianpage.dart'; // Pastikan path ini benar
 
 class BerandaPage extends StatelessWidget {
-  final String url = 'http://10.0.167.192:8000/api/penjualan';
+  final String url = 'http://192.168.1.5:8000/api/penjualan';
 
   Future getPenjualans() async {
     var response = await http.get(Uri.parse(url));
